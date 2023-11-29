@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+
+    <link rel="shortcut icon" type="image/jpg" href="images/logo/mictra_tr.png"/>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/5aa9262777.js" crossorigin="anonymous"></script>
+
+   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen, projection" />
+
+   <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+   <!--header-->
+  <header id="site-header" class="fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark stroke">
+        <h1><a class="navbar-brand" href="/">
+          <!-- <span class="sub-log">In</span>dustrie -->
+        </a></h1>
+      <a class="navbar-brand" href="/">
+          <img src= "images/logo/mictra_tr.png" style="height:120px;"/>
+      </a>
+        <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+          data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+          <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mx-lg-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link" href="/services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/policy">Policies</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+            <li class="top-quote ml-lg-4 mt-lg-0 mt-3">
+              <a href="tel: +2347033646059" class="btn btn-style btn-primary">+2347033646059</a>
+            </li>
+          </ul>
+        </div>
+        <!-- toggle switch for light and dark theme -->
+       
+        <div class="mobile-position">
+          <nav class="navigation">
+            <div class="theme-switch-wrapper">
+              <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox">
+                <div class="mode-container py-1">
+                  <i class="gg-sun"></i>
+                  <i class="gg-moon"></i>
+                </div>
+              </label>
+            </div>
+          </nav>
+        </div>
+        <!-- //toggle switch for light and dark theme -->
+      </nav>
+    </div>
+  </header>
+  <!--/header-->
+    <div class="clearance"></div><br>
+    <div class="container success">
+        <h3>Message successfully sent</h3>
+
+        <p> Dear <%= data.first_name %>, </p>
+        <p>Be rest assured that we would reach you as soon as possible using the email: <span><%= data.email %></span> you provided.</p>
+        <p>Many Thanks!</p>
+    </div>
+    <div class="social-media">
+        <ul>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://web.facebook.com/SkyIT-157943760991439" target="_blank"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/skyit_ltd/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+  
+      <a href="#" class="to-top"><i class="fas fa-angle-double-up"></i></a>
+  
+      <section class="w3l-footer-29-main w3l-copyright">
+    <div class="container">
+       <div class="bottom-copies">
+        <p class="copy-footer-29 text-center">© 2022 Kimuto Engineering Limited. All rights reserved.</p>
+      </div>
+    </div>
+
+      <!-- move top -->
+      <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fa fa-angle-up"></span>
+      </button>
+      <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+          scrollFunction()
+        };
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("movetop").style.display = "block";
+          } else {
+            document.getElementById("movetop").style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+      <!-- /move top -->
+    </section>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="js/skyit.js"></script>
+
+</body>
+</html>
