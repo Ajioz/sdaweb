@@ -16825,14 +16825,13 @@ h3.title-spe {
   font-size: 14px;
   color: #333;
   width: 130px;
-  margin-right: 50px;
 }
 .directory .right .lower-right .local-church img {
   width: 40px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin-left: 50px;
+  margin-right: -5px;
 }
 
 @media all and (max-width: 1279px) {
@@ -16930,7 +16929,7 @@ h3.title-spe {
 }
 
 
-@media all and (max-width: 884px) {
+@media all and (max-width: 849px) {
     .directory{
       display: flex;
       flex-direction: column;
@@ -17023,15 +17022,82 @@ h3.title-spe {
       justify-content: center;
     }
 }
-@media all and (max-width: 834px) {
+/* @media all and (max-width: 849px) {
+    .directory{
+      display: flex;
+      flex-direction: column;
+      min-height: 200px;
+      margin: 10px auto;
+      background-color: #fff;
+    }
+    .directory .left {
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      background-color: #fff;
+      padding: 0;
+      margin-bottom: 320px;
+    }
+    .directory .left .upper-left {
+      display: flex;
+      flex-direction: row;
+      margin: 20px auto;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%;
+    }
+    .directory .left .upper-left .chip {
+      display: flex;
+      flex-direction: row;
+      margin: 0 20px;
+      width: 30%;
+      justify-content: start;
+    }
+
+    .directory .left .lower-left {
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      width: 100%;
+      margin: 30px 0;
+    }
+    .directory .left .lower-left .lower-left-left {
+      display: block;
+      padding: 0;
+      height: fit-content;
+      width: 90%;
+      margin: 0 30px 30px 30px;
+      background-color: #fff;
+    }
+    .directory .left .lower-left .lower-left-right {
+      display: block;
+      padding: 0;
+      height: fit-content;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .directory .left .lower-left .lower-left-right iframe{
+      height: 300px;
+      width: 100%;
+      margin: 20px auto 0 auto;
+      background-color: #fff;
+    }
+    .directory .right {
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      height: fit-content;
+      background-color: #eee;
+      margin: -1px;
+    }
     .directory .right .lower-right .local-church {
       margin: 15px;
       padding: 2px;
-      width: 96%;
+      width: 95%;
     }
     .directory .right .lower-right .local-church .church-name {
-      width: 100px;
-      margin-left: 2px;
+      width: 110px;
+      margin-left: 5px;
     }
     .directory .right .lower-right .local-church .church-address {
       width: 320px;
@@ -17039,45 +17105,43 @@ h3.title-spe {
     .directory .right .lower-right .local-church .contact {
       width: 150px;
     }
-}
+    .directory .right .lower-right .local-church img {
+      margin-right: 2px;
+    }
+    .directory .left {
+      flex-basis: 80px;
+    }
+    .directory .left .upper-left {
+      justify-content: center;
+    }
+} */
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 726px) {
+    .directory .right {
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      height: fit-content;
+      background-color: #eee;
+      margin: -1px;
+    }
     .directory .right .lower-right .local-church {
-      margin: 15px auto;
+      margin: 5px;
       padding: 2px;
       width: 100%;
     }
     .directory .right .lower-right .local-church .church-name {
-      width: 100px;
-      margin-left: 2px;
+      width: 110px;
+      margin-left: 5px;
     }
     .directory .right .lower-right .local-church .church-address {
       width: 320px;
     }
     .directory .right .lower-right .local-church .contact {
       width: 150px;
-    }
-}
-
-@media all and (max-width: 768px) {
-    .directory .right .lower-right .local-church {
-      margin: 0;
-      padding: 2px;
-    }
-    .directory .right .lower-right .local-church .church-name {
-      width: 100px;
-      margin: 0px;
-    }
-    .directory .right .lower-right .local-church .church-address {
-      width: 320px;
-      margin: 0px;
-    }
-    .directory .right .lower-right .local-church .contact {
-      width: 150px;
-      margin: 0px;
     }
     .directory .right .lower-right .local-church img {
-      margin: 0px;
+      margin-right: 2px;
     }
     .directory .left {
       flex-basis: 80px;
@@ -17101,160 +17165,21 @@ h3.title-spe {
   .w3l-services2 .cwp23-text-cols {
     grid-template-columns: 1fr;
   }
-}
-@media all and (max-width: 430px) {
-  .directory{
-      display: flex;
-      flex-direction: column;
-      min-height: 200px;
-      margin: 10px auto;
-      background-color: #fff;
-    }
-    .directory .left {
-      display: flex;
-      flex-direction: column;
-      height: fit-content;
-      background-color: #fff;
-      padding: 0;
-      margin-bottom: 320px;
-    }
-    .directory .left .upper-left {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-    }
-    .directory .left .upper-left .chip {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 20px;
-      width: 90%;
-      justify-content: start;
-    }
-    .directory .left .upper-left .upper-left-right {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      margin: 20px;
-      width: 90%;
-      padding: 20px;
-    }
-
-    .directory .left .lower-left {
-      display: flex;
-      flex-direction: column;
-      height: fit-content;
-      width: 100%;
-      margin: 30px 0;
-    }
-    .directory .left .lower-left .lower-left-left {
-      display: block;
-      padding: 0;
-      height: fit-content;
-      width: 90%;
-      margin: 0 auto 20px auto;
-      background-color: #fff;
-    }
-    .directory .left .lower-left .lower-left-right {
-      display: block;
-      padding: 0;
-      height: fit-content;
-      width: 100%;
-      margin: 60px auto 0 auto;
-    }
-    .directory .left .lower-left .lower-left-right iframe{
-      height: 300px;
-      width: 100%;
-      margin: 120px auto 0 auto;
-      background-color: #fff;
-    }
-    .directory .right {
-      display: flex;
-      flex-direction: column;
-      box-sizing: border-box;
-      height: fit-content;
-      background-color: #eee;
-      margin: -1px;
-      margin-top: 180px;
-    }
-    .directory .right .lower-right .local-church {
-      margin: 15px auto;
-      padding: 10px;
-      width: 100%;
-      height: fit-content;
-    }
-    .directory .right .lower-right .local-church .church-name {
-      margin: 10px auto;
-      text-wrap: break-word;
-      width: 30%;
-      margin-left: 10px;
-    }
-    .directory .right .lower-right .local-church .church-address {
-      margin: 10px auto;
-      width: 50%;
-      text-wrap: break-word;
-    }
-    .directory .right .lower-right .local-church .contact {
-      margin: 10px 0 0 10px;
-      width: 70%;
-    }
-    .directory .right .lower-right .local-church img {
-      margin: 10px auto;
-      margin-right: 30px;
-    }
-    .directory .left {
-      flex-basis: 80px;
-    }
-    .directory .left .upper-left {
-      justify-content: center;
-    }
-}
-@media all and (max-width: 320px) {
-    .directory .right {
-      display: flex;
-      flex-direction: column;
-      box-sizing: border-box;
-      height: fit-content;
-      background-color: #eee;
-      margin: -1px;
-      margin-top: 180px;
-    }
-    .directory .right .lower-right .local-church {
-      margin: 15px auto;
-      padding: 10px;
-      width: 100%;
-      height: fit-content;
-    }
-    .directory .right .lower-right .local-church .church-name {
-      margin: 10px auto;
-      text-wrap: break-word;
-      width: 30%;
-      margin-left: 10px;
-    }
-    .directory .right .lower-right .local-church .church-address {
-      margin: 10px auto;
-      width: 50%;
-      text-wrap: break-word;
-    }
-    .directory .right .lower-right .local-church .contact {
-      margin: 10px 0 0 10px;
-      width: 45%;
-      background-color: yellow;
-    }
-    .directory .right .lower-right .local-church img {
-      margin: 10px auto;
-      margin-right: 30px;
-    }
-    .directory .left {
-      flex-basis: 80px;
-    }
-    .directory .left .upper-left {
-      justify-content: center;
-    }
+  .directory .left .lower-left .lower-left-right {
+    display: none;
+  }
+  .directory .left .upper-left .lower-left-right {
+    display: none;
+  }
+  .directory .left .upper-left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  }
+  .directory .left .upper-left .upper-left-left {
+    margin: 10px auto;
+  }
 }
 
 @media all and (max-width: 320px) {
