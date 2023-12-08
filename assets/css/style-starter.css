@@ -14906,7 +14906,7 @@ nav ul li a:hover {
     height: 34px;
     display: inline-block;
     border-radius: 4px;
-    background: var(--para-color);
+    background: #333;
     text-align: center;
   }
 
