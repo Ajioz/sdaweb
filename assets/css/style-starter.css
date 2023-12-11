@@ -14932,6 +14932,7 @@ nav ul li a:hover {
 @media only screen and (max-width: 480px) {
   .navbar-brand img {
     width: 100px;
+    margin: 0 0 0 35px;
   }
   .mobile-position {
     position: absolute;
